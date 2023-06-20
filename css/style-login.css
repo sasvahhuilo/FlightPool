@@ -1,0 +1,138 @@
+
+body{
+  font-family: 'Unbounded', cursive;
+  font-weight: 500;
+  min-height: 100vh;
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #579DFF;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form{
+  width: min(100%, 425px);
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+  border-radius: 10px;
+}
+.form-title{
+  position: relative;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.form-title::before{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background: #579DFF;
+  left: 0;
+}
+.form-title h1{
+  color: var(--text);
+}
+.form-title p{
+  color: var(--text2);
+  font-size: .9rem;
+}
+
+.form-field{
+  display: grid;
+  margin: auto;
+  justify-items: center;
+  margin-top: 10px;
+}
+.form-field p{
+  color: gray;
+}
+.form-field-input{
+  position: relative;
+}
+.form-field-input input{
+  width: 400px;
+  padding: 20px 12px 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background: rgb(248, 248, 248);
+}
+
+.input{
+  font-family: 'Unbounded', cursive;
+  font-size: .9rem;
+  text-align: left;
+  
+}
+input, button{
+  border-radius: 5px;
+  border: 2px solid transparent;
+  outline: none;
+}
+input{
+  text-align: left;
+}
+button {
+  padding: 13px;
+  font-size: 1rem;
+  font-family: 'Unbounded', cursive;
+  width: 426px;
+}
+.button-login{
+  background: #579DFF;
+  color: #fff;
+  font-weight: 600;
+  border: 3px solid #579DFF
+}
+.button-register{
+  background-color: #fff;
+  color: #579DFF;
+  border: 3px solid #579DFF;
+  font-weight: 600;
+}
+.a{
+  text-decoration: none;
+  color: #579DFF;
+  font-size: .9rem;
+}
+.a-login, .a-admin, .a-register{
+  text-decoration: none;
+}
+.a-login {
+  color: #fff;
+}
+.a-login:hover {
+  color: #579DFF;
+}
+.a-admin{
+  color: #579DFF;
+}
+.a-register {
+  color: #579DFF;
+}
+.a-register:hover {
+  color: #579DFF;
+}
+.button-register:hover{
+  background: #579DFF;
+    color: #fff;
+    font-weight: 600;
+    transition: background-color 0.5s;
+}
+.button-login:hover{
+  background-color: #fff;
+    color: #579DFF;
+    border: 3px solid #579DFF;
+    font-weight: 600;
+    transition: background-color 0.5s;
+}
+.admin{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img\307246.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="js\js.js">
+    <title>FlightPool</title>
+</head>
+<body>
+<div class="container container-header">
+    <header class="header">
+        <img src="img\307246.svg" alt="Logo" class="logo" width="250px" height="80px">
+        <input type="text" class="input input-address" placeholder="Поиск авиабилетов">
+        <div class="buttons">
+            <button class="button button-primary" onclick="document.location='login.html'">
+                <span class="button-text">Войти</span>
+            </button>
+            <button class="button" onclick="document.location='register.html'">
+                <span class="button-text">Зарегистрироваться</span>
+            </button>
+        </div>
+    </header>
+</div>
+<div class="main">
+<!-- слайдер -->
+<div class="container">
+    <div class="text">
+        <h1 class="FlightPool">FlightPool</h1>
+    <h2 class="FlightPool-two">Мы сближаем города, вы – живете там, где хотите.</h2>
+    </div>
+
+<div class="slider">
+    <div class="container_slider_css">
+        <img class="photo_slider_css" src="img\197152c818f021a2f4db244ec5328487.jpg" alt="">
+        <img class="photo_slider_css" src="img\airline-staff-never-fat-British-Airways-711420.jpg" alt="">
+        <img class="photo_slider_css" src="img\plan-road-trip-tips-ideas.jpg" alt="">
+        <img class="photo_slider_css" src="img\aircrafts\96-963589_airbus-a320-wallpaper-airbus-a320-wallpaper-hd.jpg" alt="">
+    </div>
+    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+</div>
+</div>
+<!-- акции -->
+
+<div class="cards">
+    <div class="card">
+        <div class="zoom-wrapper"><img src="img\promotions\promotion1.jpg" alt="card-image" class="card-image"></div>
+        <div class="card-text">
+            <div class="card-heading">
+                <h3 class="card-title">Возврат и обмен билетов</h3>
+            </div>
+            <div class="card-info">
+                <div class="info">Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.
+                Как только все это закончится, мы продолжим исследовать этот мир так, как мы привыкли.
+                Специальные правила, разработанные для этой сложной ситуации, помогут вам отменить поездку или отложить её на потом.</div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="zoom-wrapper"><img src="img\promotions\promotion2.jpg" alt="card-image" class="card-image"></div>
+        <div class="card-text">
+            <div class="card-heading">
+                <h3 class="card-title">Лучшие предложения</h3>
+            </div>
+            <div class="card-info">
+                <div class="info">Снова увидеть улицы, которые так много видели. Обнять своих близких и оглянуться назад, чтобы увидеть,
+                через что вам пришлось пройти. И думать о новых мечтах, которые будут такими особенными!</div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="zoom-wrapper"><img src="img\promotions\promotion3.jpg" alt="card-image" class="card-image"></div>
+        <div class="card-text">
+            <div class="card-heading">
+                <h3 class="card-title">Видеться чаще</h3>
+            </div>
+            <div class="card-info">
+                <div class="info">С начала января мы расширяем географию полетов по России, чтобы вы могли
+                чаще видитесь с близкими. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="zoom-wrapper"><img src="img\promotions\promotion4.jpg" alt="card-image" class="card-image"></div>
+        <div class="card-text">
+            <div class="card-heading">
+                <h3 class="card-title">Все снова включено</h3>
+            </div>
+            <div class="card-info">
+                <div class="info">С 10 августа возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться дважды
+                в день ежедневно, а рейсы по маршруту Москва-Даламан будут выполняться от трех до семи раз в неделю.</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- promo -->
+<section class="promo">
+    <h1 class="promo-title">Компания FlightPool <br /> представляет полную безопасность</h1>
+    <p class="promo-text">Мы даем полную гарантию качества и цены полета.</p>
+    <p class="promo-text">Телефон горячей линии<br />«8 (800) 100-10-10»</p>
+</section>
+<!-- contacts -->
+    <div class="container container-action">
+        <h2 class="section-title">Подписка на закрытые акции</h2>
+        <div class="contacts-block">
+            <form action="#" class="contacts-form">
+                <div class="action-form">
+                    <h4 class="form-title">Можете просто оставить почту и вам сразу же будут приходить самые последние акции!</h4>
+                    <input type="mail" class="input input-mail" placeholder="Ваша почта">
+                    <button class="button button-action">Подписаться</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- подвал -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-block">
+            <img src="img\307246.svg" alt="logo" class="logo footer-logo" width="100px" height="100px">
+            <nav class="footer-nav">
+                <a href="#" class="footer-link">Телефон «8 (800) 100-10-10»</a>
+            </nav>
+            <div class="social-links">
+                <a href="#" class="social-link"><img src="img\social\insta.svg" alt="instagram"></a>
+                <a href="#" class="social-link"><img src="img\social\f.svg" alt="facebook"></a>
+                <a href="#" class="social-link"><img src="img\social\vk.svg" alt="vk"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

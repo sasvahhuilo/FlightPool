@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img\307246.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css\admin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;800&display=swap" rel="stylesheet">
+  <title>Личный кабинет</title>
+</head>
+<body>
+  <div class="container">
+    <div class="account">
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.2s">Кабинет Администратора</span>
+          <h3 class="hero-title wow fadeInRight" data-wow-delay="0.4s">Александра Вахотская</h3>
+          <div class="date">
+          <input type="text" id="text" placeholder="ФИО пользователя" class="input">
+          <div class="button-date">
+            <button class="button hero-button">добавить</button><button class="button hero-button">удалить</button><button class="button hero-button">редактировать</button>
+          </div>
+          </div>
+          <div class="div">
+          <div class="date-name">
+            <h3>Для выбранного пользователя:</h3>
+            <p><label>Фамилия<span>*</span></label>
+              <input type="text" name="surname" size="20" maxlength="18" required="required" class="inin" >
+            </p>
+            
+            <p><label>Имя<span>*</span></label>
+              <input type="text" name="name" maxlength="15" required="required" class="inin">
+            </p>
+            
+            <p><label>Отчество</label>
+              <input type="text" name="patronymic" maxlength="20" class="inin">
+            </p>
+            <p><label>Номер Телефона<span>*</span></label>
+              <input type="number" name="number" maxlength="100" required="required" class="inin">
+            </p>
+            
+            <p><label>Пароль<span>*</span></label>
+              <input type="password" name="name" maxlength="5" required="required" class="inin">
+            </p>
+          </div>
+          </div>
+            <button class="button hero-button" onclick="document.location='index.html'">ВЫЙТИ</button> <button class="button hero-button" onclick="document.location='index copy.html'" target="_blank">НАЗАД</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

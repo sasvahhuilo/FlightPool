@@ -1,0 +1,100 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body{
+  font-family: 'Unbounded', cursive;
+    font-weight: 500;
+    min-height: 100vh;
+    background: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #579DFF;
+}
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 105px;
+}
+
+.hero {
+  padding-top: 50px;
+  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 100%);
+  padding-bottom: 100px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  line-height: 28px;
+  color: #579DFF;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+.hero-title {
+  font-size: 50px;
+  line-height: 59px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 420px;
+  margin-bottom: 38px;
+}
+.hero-avatar {
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 50%;
+  background-image: url('../img/img_218090.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 390px 448px;
+  border: 13px solid #fff;
+}
+.account{
+  width: min(100%, 1600px);
+    background: #e5f5ff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.button {
+  background: linear-gradient(180deg, #3f8efc 0%, #2667ff 100%);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 45px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+.date{
+  margin-bottom: 40px;
+}
+input, option, select{
+  border-radius: 5px;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: 'Unbounded', cursive;
+    font-size: .9rem;
+    text-align: left;
+    margin: 2px;
+}
